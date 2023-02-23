@@ -30,7 +30,7 @@ void announceWinner(char winner, char human, char computer);
 
 
 //Function main
-int main() {
+/*int main() {
 	setlocale(LC_ALL, "spanish");
 
 	const int NUM_SQUARES = 9;
@@ -61,7 +61,7 @@ int main() {
 
 	announceWinner(winner(board), player, computer);
 
-}
+}*/
 
 //Return the piece winner a tie or noBody
 char winner(const vector<char>& board)
